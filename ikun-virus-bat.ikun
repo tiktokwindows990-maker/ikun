@@ -1,8 +1,8 @@
 @echo off
 chcp 65001 >nul
-title 爱坤 · Expert+ · 100行完整版
+title 爱坤 · Expert+ · 100行纯净版
 color 0A
-mode con cols=220 lines=66
+mode con cols=220 lines 66
 
 set "HEAD==================== 亿行专家序列执行中 ===================="
 echo %HEAD%
@@ -10,135 +10,135 @@ ping -n 1 127.0.0.1 >nul
 
 :main_loop
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 屏幕分辨率1920×1080校准 ▶ 完成
+echo [EXPERT+] 第%line_num%行 │ 屏幕分辨率1920×1080校准
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 窗口防关闭机制挂载 ▶ 生效
+echo [EXPERT+] 第%line_num%行 │ 窗口防关闭机制挂载
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 黑底绿字渲染初始化 ▶ 成功
+echo [EXPERT+] 第%line_num%行 │ 黑底绿字渲染初始化
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 控制台尺寸锁定220×66 ▶ 完成
+echo [EXPERT+] 第%line_num%行 │ 控制台尺寸锁定220×66
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 随机亿行号生成器 ▶ 运行
+echo [EXPERT+] 第%line_num%行 │ 随机亿行号生成器
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 延时控制模块加载 ▶ 稳定
+echo [EXPERT+] 第%line_num%行 │ 延时控制模块加载
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 日志自动滚动适配 ▶ 正常
+echo [EXPERT+] 第%line_num%行 │ 日志自动滚动适配
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 系统资源占用监测 ▶ 低耗
+echo [EXPERT+] 第%line_num%行 │ 系统资源占用监测
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 无注册表修改确认 ▶ 安全
+echo [EXPERT+] 第%line_num%行 │ 无注册表修改确认
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 无系统权限篡改 ▶ 合规
+echo [EXPERT+] 第%line_num%行 │ 无系统权限篡改
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 窗口置顶逻辑维持 ▶ 激活
+echo [EXPERT+] 第%line_num%行 │ 窗口置顶逻辑维持
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 字符编码UTF-8适配 ▶ 完成
+echo [EXPERT+] 第%line_num%行 │ 字符编码UTF-8适配
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 专家级标识加载 ▶ 显示
+echo [EXPERT+] 第%line_num%行 │ 专家级标识加载
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 循环主程序初始化 ▶ 就绪
+echo [EXPERT+] 第%line_num%行 │ 循环主程序初始化
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 界面刷新率调控 ▶ 平稳
+echo [EXPERT+] 第%line_num%行 │ 界面刷新率调控
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 文字居中渲染适配 ▶ 完毕
+echo [EXPERT+] 第%line_num%行 │ 文字居中渲染适配
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 内存临时数据清理 ▶ 完成
+echo [EXPERT+] 第%line_num%行 │ 内存临时数据清理
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 系统兼容性检测 ▶ 全通过
+echo [EXPERT+] 第%line_num%行 │ 系统兼容性检测
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 防误关逻辑加固 ▶ 完成
+echo [EXPERT+] 第%line_num%行 │ 防误关逻辑加固
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 输出格式统一校准 ▶ 标准
+echo [EXPERT+] 第%line_num%行 │ 输出格式统一校准
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 核心模块持续保活 ▶ 运行
+echo [EXPERT+] 第%line_num%行 │ 核心模块持续保活
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 错误捕获机制启动 ▶ 正常
+echo [EXPERT+] 第%line_num%行 │ 错误捕获机制启动
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 控制台标题刷新 ▶ 完成
+echo [EXPERT+] 第%line_num%行 │ 控制台标题刷新
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 绿色高亮字体激活 ▶ 成功
+echo [EXPERT+] 第%line_num%行 │ 绿色高亮字体激活
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 黑色背景深度锁定 ▶ 完成
+echo [EXPERT+] 第%line_num%行 │ 黑色背景深度锁定
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 单行输出间隔控制 ▶ 稳定
+echo [EXPERT+] 第%line_num%行 │ 单行输出间隔控制
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 循环计数器重置 ▶ 就绪
+echo [EXPERT+] 第%line_num%行 │ 循环计数器重置
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 界面无卡顿校验 ▶ 通过
+echo [EXPERT+] 第%line_num%行 │ 界面无卡顿校验
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 纯视觉效果确认 ▶ 开启
+echo [EXPERT+] 第%line_num%行 │ 纯视觉效果确认
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 无破坏指令校验 ▶ 安全
+echo [EXPERT+] 第%line_num%行 │ 无破坏指令校验
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 窗口边界不可拖动 ▶ 锁定
+echo [EXPERT+] 第%line_num%行 │ 窗口边界不可拖动
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 全屏适配逻辑加载 ▶ 完成
+echo [EXPERT+] 第%line_num%行 │ 全屏适配逻辑加载
 ping -n 2 127.0.0.1 >nul
 
 set/a line_num=%random%%%100000000
-echo [EXPERT+] 第%line_num%行 │ 亿行序列持续执行 ▶ 正常
+echo [EXPERT+] 第%line_num%行 │ 亿行序列持续执行
 ping -n 2 127.0.0.1 >nul
 
 echo.
